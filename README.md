@@ -7,7 +7,12 @@ For implementing the design using RK2, RK3, and RK4 methods, Xilinx Vivado's hal
 | --------------| --------------------|----------------------|------------------|
 | 5             | 5                   |5                     |10                |
 
-All the other specifications have been given in the paper on how to design the accelerations based on the half-precision FP formats.
+This is effective for an ODE given below:
+
+𝑓 = − 2𝑥 − 𝑦 
+
+All the in-detailed other specifications including on-chip power consumption details, FPGA hardware resources, and timing summary have been given in the paper (https://ieeexplore.ieee.org/document/10442673) on how to design the accelerations based on the half-precision FP formats.
+
 For the working principle of the accelerator, please refer to (https://github.com/BhattSoham/Implementation-of-Runge-Kutta-Hardware-Accelerator).
 
 
